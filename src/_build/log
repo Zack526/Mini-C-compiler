@@ -1,0 +1,115 @@
+# dune exec bin/main.exe try codegen
+# OCAMLPARAM: unset
+# Workspace root: /Users/Zack/csci3366/ps10-Zack526/src
+$ /usr/bin/getconf _NPROCESSORS_ONLN > /var/folders/x_/8mvr7fp52y14n0x9n933_bg80000gn/T/dune8bc914.output 2> /dev/null
+# Auto-detected concurrency: 8
+# disable binary cache
+$ /Users/Zack/.opam/default/bin/ocamlc.opt -config > /var/folders/x_/8mvr7fp52y14n0x9n933_bg80000gn/T/dune5b3336.output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dyn
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path = Some External "/Users/Zack/.opam/default/lib/toplevel"
+#  ; ocaml_bin = External "/Users/Zack/.opam/default/bin"
+#  ; ocaml = Ok External "/Users/Zack/.opam/default/bin/ocaml"
+#  ; ocamlc = External "/Users/Zack/.opam/default/bin/ocamlc.opt"
+#  ; ocamlopt = Ok External "/Users/Zack/.opam/default/bin/ocamlopt.opt"
+#  ; ocamldep = Ok External "/Users/Zack/.opam/default/bin/ocamldep.opt"
+#  ; ocamlmklib = Ok External "/Users/Zack/.opam/default/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "DUNE_OCAML_HARDCODED" : "/Users/Zack/.opam/default/lib"
+#        ; "DUNE_OCAML_STDLIB" : "/Users/Zack/.opam/default/lib/ocaml"
+#        ; "DUNE_SOURCEROOT" : "/Users/Zack/csci3366/ps10-Zack526/src"
+#        ; "INSIDE_DUNE" :
+#            "/Users/Zack/csci3366/ps10-Zack526/src/_build/default"
+#        ; "MANPATH" :
+#            "/Users/Zack/csci3366/ps10-Zack526/src/_build/install/default/bin"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/Users/Zack/csci3366/ps10-Zack526/src/_build/install/default/lib"
+#        ; "OCAMLPATH" :
+#            "/Users/Zack/csci3366/ps10-Zack526/src/_build/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/Users/Zack/csci3366/ps10-Zack526/src/_build/install/default/lib/toplevel"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_path = [ External "/Users/Zack/.opam/default/lib" ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "4.11.1"
+#      ; standard_library_default = "/Users/Zack/.opam/default/lib/ocaml"
+#      ; standard_library = "/Users/Zack/.opam/default/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "cc"
+#      ; ocamlc_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; ocamlc_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; ocamlopt_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; ocamlopt_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; bytecomp_c_compiler =
+#          [ "cc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "cc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; native_c_libraries = [ "-lm" ]
+#      ; cc_profile = []
+#      ; architecture = "amd64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "macosx"
+#      ; asm = [ "clang"; "-arch"; "x86_64"; "-Wno-trigraphs"; "-c" ]
+#      ; asm_cfi_supported = true
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "x86_64-apple-darwin20.2.0"
+#      ; target = "x86_64-apple-darwin20.2.0"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X028"
+#      ; cmi_magic_number = "Caml1999I028"
+#      ; cmo_magic_number = "Caml1999O028"
+#      ; cma_magic_number = "Caml1999A028"
+#      ; cmx_magic_number = "Caml1999Y028"
+#      ; cmxa_magic_number = "Caml1999Z028"
+#      ; ast_impl_magic_number = "Caml1999M028"
+#      ; ast_intf_magic_number = "Caml1999N028"
+#      ; cmxs_magic_number = "Caml1999D028"
+#      ; cmt_magic_number = "Caml1999T028"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }
+# Workspace root: /Users/Zack/csci3366/ps10-Zack526/src
+$ (cd _build/default && /Users/Zack/.opam/default/bin/ocamldep.opt -modules -impl bin/codegen.ml) > _build/default/bin/.main.eobjs/codegen.ml.d
+$ (cd _build/default && /Users/Zack/.opam/default/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -32 -w -27 -warn-error -A -g -I bin/.main.eobjs/byte -I bin/.main.eobjs/native -I lib/.lib.objs/byte -I lib/.lib.objs/native -intf-suffix .ml -no-alias-deps -opaque -o bin/.main.eobjs/native/codegen.cmx -c -impl bin/codegen.ml)
+$ (cd _build/default && /Users/Zack/.opam/default/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -32 -w -27 -warn-error -A -g -o bin/main.exe lib/lib.cmxa /Users/Zack/.opam/default/lib/ocaml/unix.cmxa -I /Users/Zack/.opam/default/lib/ocaml bin/.main.eobjs/native/symbol.cmx bin/.main.eobjs/native/typ.cmx bin/.main.eobjs/native/util.cmx bin/.main.eobjs/native/ast.cmx bin/.main.eobjs/native/basis.cmx bin/.main.eobjs/native/label.cmx bin/.main.eobjs/native/env.cmx bin/.main.eobjs/native/parser.cmx bin/.main.eobjs/native/debug.cmx bin/.main.eobjs/native/quads.cmx bin/.main.eobjs/native/cases.cmx bin/.main.eobjs/native/mips.cmx bin/.main.eobjs/native/dynamicbasis.cmx bin/.main.eobjs/native/codegen.cmx bin/.main.eobjs/native/control.cmx bin/.main.eobjs/native/copyprop.cmx bin/.main.eobjs/native/lexer.cmx bin/.main.eobjs/native/lift.cmx bin/.main.eobjs/native/name.cmx bin/.main.eobjs/native/static.cmx bin/.main.eobjs/native/staticbasis.cmx bin/.main.eobjs/native/try.cmx bin/.main.eobjs/native/main.cmx)

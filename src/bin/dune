@@ -1,0 +1,8 @@
+(ocamllex lexer)
+(ocamlyacc parser)
+(executable
+  (libraries lib unix)
+  (name main))
+(env
+  (dev
+    (flags (:standard -w -32 -w -27 -warn-error -A))))
